@@ -3,16 +3,26 @@
 main {
     width: 80%;
     margin: auto;
+    text-align: center;
 }
 
 
 /* ARTICLE SETTINGS */
 
+article {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 30%;
+    max-width: 640px;
+    margin: 50px 0 0;
+}
+main article:nth-of-type(3n+2) {
+    margin: 0 4%;
+}
 .box {
     box-sizing: border-box;
-    width: 33%;
     position: relative;
-    margin: 50px 0 5px;
+    margin-bottom: 5px;
 }
 
 .ph {
